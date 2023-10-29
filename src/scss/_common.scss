@@ -1,0 +1,10 @@
+@import './varibel';
+
+.btn-red {
+    background-color: $danger;
+    color: $white;
+    padding: 5px 20px;
+    border-radius: $border-radius;
+}
+
+

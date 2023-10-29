@@ -1,0 +1,24 @@
+@import '/src/scss/common';
+@import '/src/scss/varibel';
+
+.header__top__left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .navlink {
+        color: $white;
+        transition: all .3s ease;
+        text-decoration: none;
+        &:hover {
+            color: $info ;
+            
+        }
+        &::after {
+            content: "";
+            width: 2px;
+            height: 22px;
+            background-color: $white;
+            padding: 1px;
+        }
+    }
+}

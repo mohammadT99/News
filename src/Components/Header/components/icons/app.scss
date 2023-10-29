@@ -1,0 +1,14 @@
+@import '/src/scss/common';
+@import '/src/scss/varibel';
+.header__top__icon {
+    display: flex;
+    gap: 10px;
+    margin-right:20px ;
+    .icon__header {
+        padding: 4px 6px;
+        border-radius:110px;
+        &:hover {
+            background-color:$info;
+        }
+    }
+}
